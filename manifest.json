@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "敏感词检测",
+	"version": "0.0.1",
+	"description": "本扩展程序尚处于开发阶段，欢迎测试并提出宝贵建议。",
+	"icons": {
+		"16": "img/icons8-search-16.png",
+		"48": "img/icons8-search-48.png",
+		"128": "img/icons8-search-128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["js/mark.min.js", "js/main.js"],
+			"css": ["css/mark.css"],
+			"run_at": "document_end"
+		}
+	]
+}
