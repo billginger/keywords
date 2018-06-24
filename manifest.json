@@ -21,5 +21,6 @@
 			"run_at": "document_end"
 		}
 	],
-	"permissions": ["storage"]
+	"permissions": ["storage"],
+	"options_page": "options.html"
 }
